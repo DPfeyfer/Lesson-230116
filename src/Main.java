@@ -38,6 +38,10 @@ public class Main {
 
         //Task 3
         System.out.println("Task 3");
+        int[] forPrint1 = {10, 20, 30, 35, 40, 45};
+        for (int i = 5; i >= 0; i--) {
+            System.out.print(forPrint1[i] + " ");
+        }
         System.out.println();
 
         //Task 4
