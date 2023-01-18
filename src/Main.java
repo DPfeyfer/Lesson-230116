@@ -22,6 +22,12 @@ public class Main {
         System.out.println(number2[forUnderstand1]);
         System.out.println();
 
+        //Task 1.1
+        System.out.println("Task 1.1");
+        double[] array = {1.57, 7.654, 9.986};
+        System.out.println(array[1]);
+        System.out.println();
+
         //Task 2
         System.out.println("Task 2");
         System.out.println();
