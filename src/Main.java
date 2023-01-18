@@ -9,15 +9,15 @@ public class Main {
         number[2] = 3;
         System.out.println(number[1]);
         int[] number1 = new int[3];
-        number1[0] = 1;
-        number1[1] = 2;
-        number1[2] = 3;
+        number1[0] = 4;
+        number1[1] = 5;
+        number1[2] = 6;
         int forUnderstand = number1[2];
         System.out.println(forUnderstand);
         int[] number2 = new int[3];
-        number2[0] = 1;
-        number2[1] = 2;
-        number2[2] = 3;
+        number2[0] = 7;
+        number2[1] = 8;
+        number2[2] = 9;
         int forUnderstand1 = 0;
         System.out.println(number2[forUnderstand1]);
         System.out.println();
@@ -30,17 +30,33 @@ public class Main {
 
         //Task 2
         System.out.println("Task 2");
-        int[] forPrint = {10, 20, 30, 35, 40, 45};
-        for (int i = 0; i < 6; i++) {
-            System.out.println(forPrint[i]);
+        System.out.print(number[0]);
+        for (int i = 1; i < 3; i++) {
+            System.out.print(", " + number[i]);
         }
+        System.out.println();
+        System.out.print(number1[0]);
+        for (int i = 1; i < 3; i++) {
+            System.out.print(", " + number1[i]);
+        }
+        System.out.println();
+        System.out.print(number2[0]);
+        for (int i = 1; i < 3; i++) {
+            System.out.print(", " + number2[i]);
+        }
+        System.out.println();
+        System.out.print(array[0]);
+        for (double i = 1; i < array.length; i++) {
+            System.out.print(", " + array[(int) i]);
+        }
+        System.out.println();
         System.out.println();
 
         //Task 3
         System.out.println("Task 3");
         int[] forPrint1 = {10, 20, 30, 35, 40, 45};
         for (int i = 5; i >= 0; i--) {
-            System.out.print(forPrint1[i] + " ");
+            System.out.print(", " + forPrint1[i] + " ");
         }
         System.out.println();
 
