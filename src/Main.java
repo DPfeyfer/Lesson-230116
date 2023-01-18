@@ -13,14 +13,13 @@ public class Main {
         number1[1] = 2;
         number1[2] = 3;
         int forUnderstand = number1[2];
+        System.out.println(forUnderstand);
         int[] number2 = new int[3];
         number2[0] = 1;
         number2[1] = 2;
         number2[2] = 3;
         int forUnderstand1 = 0;
         System.out.println(number2[forUnderstand1]);
-
-        System.out.println(forUnderstand);
         System.out.println();
 
         //Task 2
