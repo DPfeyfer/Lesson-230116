@@ -30,34 +30,47 @@ public class Main {
 
         //Task 2
         System.out.println("Task 2");
-        System.out.print(number[0]);
-        for (int i = 1; i < 3; i++) {
-            System.out.print(", " + number[i]);
+
+        for (int i = 0; i < number.length; i++) {
+            System.out.print(number[i]);
+            if(i != number.length - 1){
+                System.out.print(", ");
+            }
         }
         System.out.println();
+
         System.out.print(number1[0]);
         for (int i = 1; i < 3; i++) {
             System.out.print(", " + number1[i]);
         }
         System.out.println();
+
         System.out.print(number2[0]);
         for (int i = 1; i < 3; i++) {
             System.out.print(", " + number2[i]);
         }
         System.out.println();
+
         System.out.print(array[0]);
         for (double i = 1; i < array.length; i++) {
-            System.out.print(", " + array[(int) i]);
+            System.out.print(", " + array[(int)i]);
         }
         System.out.println();
         System.out.println();
 
         //Task 3
         System.out.println("Task 3");
-        int[] forPrint1 = {10, 20, 30, 35, 40, 45};
-        for (int i = 5; i >= 0; i--) {
-            System.out.print(", " + forPrint1[i] + " ");
+
+        System.out.print(number[2]);
+        for (int i = 1; i >= 0; i--) {
+            System.out.print(", " + number[i]);
         }
+        System.out.println();
+        System.out.print(array[2]);
+        for (int i = 1; i >= 0; i--) {
+            System.out.print(", " + array[i]);
+        }
+        System.out.println();
         System.out.println();
 
         //Task 4
