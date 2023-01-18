@@ -40,7 +40,7 @@ public class Main {
         System.out.println();
 
         System.out.print(number1[0]);
-        for (int i = 1; i < 3; i++) {
+        for (int i = 1; i < number1.length; i++) {
             System.out.print(", " + number1[i]);
         }
         System.out.println();
@@ -61,9 +61,11 @@ public class Main {
         //Task 3
         System.out.println("Task 3");
 
-        System.out.print(number[2]);
-        for (int i = 1; i >= 0; i--) {
-            System.out.print(", " + number[i]);
+        for (int i = 2; i >= 0; i--) {
+            System.out.print(number[i]);
+            if(i != number.length - 3){
+                System.out.print(", ");
+            }
         }
         System.out.println();
         System.out.print(array[2]);
