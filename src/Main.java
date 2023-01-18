@@ -30,6 +30,10 @@ public class Main {
 
         //Task 2
         System.out.println("Task 2");
+        int[] forPrint = {10, 20, 30, 35, 40, 45};
+        for (int i = 0; i < 6; i++) {
+            System.out.println(forPrint[i]);
+        }
         System.out.println();
 
         //Task 3
