@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -9,9 +11,12 @@ public class Main {
         number[2] = 3;
         System.out.println(number[1]);
         int[] number1 = new int[3];
-        number1[0] = 4;
-        number1[1] = 5;
-        number1[2] = 6;
+        for (int index = 0; index < number1.length; index++) {
+            number1[index] = index + 4;
+        }
+        //number1[0] = 4; How to do with 4, 5, 6
+        //number1[1] = 5;
+        //number1[2] = 6;
         int forUnderstand = number1[2];
         System.out.println(forUnderstand);
         int[] number2 = new int[3];
@@ -68,6 +73,7 @@ public class Main {
             }
         }
         System.out.println();
+
         System.out.print(array[2]);
         for (int i = 1; i >= 0; i--) {
             System.out.print(", " + array[i]);
@@ -77,6 +83,13 @@ public class Main {
 
         //Task 4
         System.out.println("Task 4");
+        for (int ind = 0; ind < number.length; ind++) {
+            if(number[ind] % 2 != 0){
+                number[ind] = ind + 1;
+            }
+
+        }
+        System.out.println(Arrays.toString(number));
         System.out.println();
     }
 }
