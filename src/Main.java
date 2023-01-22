@@ -85,7 +85,7 @@ public class Main {
         System.out.println("Task 4");
         for (int ind = 0; ind < number.length; ind++) {
             if (number[ind] % 2 == 1) {
-                number[ind] = number[ind] + 1;
+                number[ind] += 1;
             }
 
         }
